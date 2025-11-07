@@ -32,7 +32,6 @@ public sealed partial class OptionalFeaturesPage : Page
 
     private void OnPageLoaded(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
     {
-        RuntimeHelper.SetupExpanderFocusManagementByName(this, "SystemdSettingsExpander", "InitTextBox");
         RuntimeHelper.SetupExpanderFocusManagementByName(this, "VMIdleTimeoutExpander", "VMIdleTimeoutTextBox");
     }
 
